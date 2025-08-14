@@ -174,5 +174,6 @@ Content-Security-Policy:
   font-src 'self';
 
 3. 
-
+Security risks as supply chain attacks from third-party servers, and some CSP Whitelist problems, for example.Measures is hosting the JS on our servers, trying to reduce external sources.
+It could generate privacy and regulatory risks, also.
 
