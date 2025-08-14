@@ -2,8 +2,6 @@
 
 Challenge Project for BioCatch process.
 
-Neste projeto foi desenvolvida uma interface de chat para busca em uma base de dados (PostgreSQL) utilizando linguagem natural (LLM da OpenAI). Construída utilizando o protocolo MCP (Model Context Protocol).
-
 ## Project Structure
 
 ```
