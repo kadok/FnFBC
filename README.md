@@ -177,3 +177,16 @@ Content-Security-Policy:
 Security risks as supply chain attacks from third-party servers, and some CSP Whitelist problems, for example.Measures is hosting the JS on our servers, trying to reduce external sources.
 It could generate privacy and regulatory risks, also.
 
+4.
+Put the BioCatch JS directly into the HTML of the iFrame.
+Uses window.postMessage() fro cross communication.
+Use listeners on the parent page to receive messages, sent them from the iFrame and pass it to BioCatch JS.
+
+
+5.
+
+For a production bank application, I believe that an hybrid approach is best option! Following the industry standards and give more security.
+
+Frontend-to-Backend: The client-side application makes API requests to your own secure backend. These requests are typically authenticated and authorized.
+
+Backend-to-External API: Your backend then makes the necessary calls to third-party APIs (like BioCatch, payment gateways, etc.) or internal services.
